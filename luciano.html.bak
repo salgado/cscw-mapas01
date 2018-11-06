@@ -12,24 +12,24 @@
 <div id='map'></div>
 <div id='features'>
     <section id='welcome' class='active'>
-        <h3>Olá CSCW! Eu sou <strong>Fernanda</strong> e matrícula: 0050012989</h3>
-        <p><img src="res/fefe.jpg" height="300"><br/>Bem-vindo aos meus mapas. Conheça um lugar que gostei de conhecer e outras 2 sugestões de amigos.</p>
+        <h3>Olá CSCW! Eu sou <strong>Luciano</strong> e matrícula: 0050005859</h3>
+        <p><img src="res/luciano.jpg" height="300"><br/>Bem-vindo aos meus mapas. Conheça um lugar que gostei de conhecer e outras 2 sugestões de amigos.</p>
     </section>
     <section id='Meu1' class='active'>
-        <p class="timepoint">Julho de 2008</p>
-        <h3>São Januário</h3>
-        <p><img src="res/vasco.jpg" width="350"><br/>São Januário é ideal para quem curte um momento em família ou para quem ama futebol! Quem leva a cruz de malta no peito merece pisar nesse gramado pelo menos uma vez na vida! </p>
+        <p class="timepoint">Novembro de 2018</p>
+        <h3>IBM Rio de Janeiro</h3>
+        <p><img src="res/ibm.jpg" width="350"><br/>IBM Rio de Janeiro é o lugar ideal para quem ama tecnologia ! </p>
     </section>
     <section id='Amigo1'>
-        <p class="timepoint">Dica da Juliana Loureiro - Janeiro 2017</p>
-        <h3>Praia Pontal do Atalaia - Arraial do Cabo</h3>
-        <p><img src="res/arraial.jpg" width="350"/><br/>Águas cristalinas e uma visão deslumbrante pra quem curte uma praia!</p>
+        <p class="timepoint">Dica de Jonathan Cabral - Outubro 2018</p>
+        <h3>Lagoa de Marica</h3>
+        <p><img src="res/lagoa.jpg" width="350"/><br/>Meu lugar favorito!</p>
     </section>
     <section id='Amigo2'>
-        <p class="timepoint">Dica do Fellipe Pinho - Outubro 2017</p>
-        <h3>Brasil Game Show</h3>
-        <p><img src="https://geekpublicitario.com.br/wp-content/uploads/2017/10/brasil-game-show-bgs-2017-stand-playstation.jpg" width="350" /><br/>
-        <br/>Para quem curte games e técnologia, além de ser o maior evento do tipo da américa latina.</p>
+        <p class="timepoint">Dica da Fernanda - Julho 2008</p>
+        <h3>São Januário</h3>
+        <p><img src="res/vasco.jpg" width="350" /><br/>
+        <br/>São Januário é ideal para quem curte um momento em família ou para quem ama futebol!</p>
     </section>
 </div>
 <script>
@@ -53,12 +53,12 @@ var chapters = {
     },
     'Meu1': { //Meu1
         bearing: 0,
-        center: [-43.228150,-22.890809],
+        center: [-43.1770461,-22.9504994],
         zoom: 19,
         pitch: 54.00
     },
     'Amigo1': { //Amigo 1
-        center: [-42.013560, -22.995879],
+        center: [-42.8394161, -22.9477814],
         bearing: 1.60,
         zoom: 17.89,
         speed: 0.6,
@@ -66,7 +66,7 @@ var chapters = {
     },
     'Amigo2': { //Amigo 2
         bearing: 1.00,
-        center: [-46.614266,-23.510732],
+        center: [-43.228150,-22.890809],
         zoom: 18,
         speed: 0.6,
         pitch: 60
